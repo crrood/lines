@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <head>
 	<title>Lines!</title>
-	<script src="javascript.js"></script>
+	<script src="lines.js"></script>
 </head>
 
 <body onload="init()">
+
 	<div id="container"></div>
+	
+	<span class="button" onclick="sin();">Sine</span>
+	<span class="button" id="stop" onclick="stop();">Stop</span>
+
 </body>
+
+<style>
+	div#container {
+		margin-bottom: 50px;
+	}
+
+	span.button {
+		background-color: #8A8;
+		text-decoration: none;
+		padding: 20px;
+	}
+
+	span.button:hover {
+		background-color: #6A6;
+	}
+
+	span.button#stop {
+		background-color: #A88;
+	}
+
+	span.button#stop:hover {
+		background-color: #A66;
+	}
+
+</style>
